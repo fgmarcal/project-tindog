@@ -14,7 +14,6 @@ footer {
 
 /* Headings */
 .h1_title {
-  font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   font-weight: 600;
   color: #FBF8F1;
@@ -57,16 +56,26 @@ footer {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Section */
-
-#title {
-  background-color: #ff4c68;
-  text-align: left;
-}
+/* Containers */
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
+
+/* Sections  */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #FBF8F1;
+
+}
+
+.white-section{
+  background-color: #FBF8F1;
+  color: black;
+}
+
 
 /* Title Image */
 .phone-img {
@@ -78,7 +87,6 @@ footer {
 
 /* Features Section*/
 #features {
-  background-color: #FBF8F1;
   position: relative;
   z-index: 1;
 }
@@ -90,8 +98,6 @@ footer {
 }
 
 .feat_h3 {
-  color: black;
-  font-family: "Montserrat";
   font-weight: 600;
   font-size: 1.5rem;
 }
@@ -109,11 +115,9 @@ footer {
 /* testimonial Section */
 #testimonials {
   background-color: #ef8172;
-  color: #FBF8F1;
 }
 
 .testimonial-h2 {
-  font-family: "Montserrat";
   font-size: 3rem;
   font-weight: 600;
 }
@@ -135,9 +139,6 @@ footer {
 }
 
 /* Pricing Section */
-#pricing {
-  background-color: #FBF8F1;
-}
 
 .price-text {
   font-size: 3rem;
@@ -149,21 +150,14 @@ footer {
 }
 
 /* Call to action */
-#cta {
-  background-color: #ff4c68;
-}
 
 .cta-h3 {
-  color: #FBF8F1;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
 /* Footer */
-#footer {
-  background-color: #FBF8F1;
-}
 
 .social-ft {
   font-size: 0.9rem;
@@ -172,7 +166,6 @@ footer {
 
 .ft-copyright {
   font-size: 1rem;
-  font-family: "Montserrat";
   font-weight: 300;
 }
 
